@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Cutie Pie 💗</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- PAGE 1 -->
+        <section class="page active" id="page1">
+            <div class="card">
+
+                <div class="emoji big">🥺💗</div>
+
+                <h1>Hemloooo my cutie pieee</h1>
+
+                <p>
+                    Someone made a cute little surprise for you... 🥰✨
+                </p>
+
+                <p>
+                    Guess what? You'll love itttt! 😚💗
+                </p>
+
+                <button onclick="nextPage(2)">
+                    Open ittt 🥺🎁
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- PAGE 2 -->
+        <section class="page" id="page2">
+            <div class="card">
+
+                <div class="emoji">👀</div>
+
+                <h1>Important Question</h1>
+
+                <p class="special">
+                    Who is the sweetest girl in the whole world?
+                </p>
+
+                <div class="buttons">
+
+                    <button class="secondary" onclick="wrongAnswer()">
+                        Someone else 👀
+                    </button>
+
+                    <button onclick="nextPage(3)">
+                        Me 😌💗
+                    </button>
+
+                </div>
+
+                <p id="answer"></p>
+
+            </div>
+        </section>
+
+
+        <!-- PAGE 3 -->
+        <section class="page" id="page3">
+            <div class="card">
+
+                <div class="emoji">🥰</div>
+
+                <h1>A few things...</h1>
+
+                <p>I really like talking to you.</p>
+
+                <p>I like your cute cute stickers.</p>
+
+                <p>I like when you're excited.</p>
+
+                <p>
+                    I like when you say
+                    <b>"mere felbo tomay"</b>
+                </p>
+
+                <p>And yes...</p>
+
+                <p class="special">
+                    I likeeeeeee youuuuuu. 💗
+                </p>
+
+                <button onclick="nextPage(4)">
+                    Nexttt 🥺
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- PAGE 4 -->
+        <section class="page" id="page4">
+            <div class="card">
+
+                <div class="emoji">🔬😂</div>
+
+                <h1>Attention attention!!</h1>
+
+                <p class="special">
+                    My rosogollaaaa 🍬
+                </p>
+
+                <p>
+                    After extensive research...
+                </p>
+
+                <p>
+                    the Korean scientist found that
+                    Suatri is a <b>top BL fan</b>
+                </p>
+
+                <p>
+                    and she's a
+                    <b>pretty little baby.</b> 🥺💗
+                </p>
+
+                <p class="small">
+                    Source: you know that smart guy 👀
+                </p>
+
+                <button onclick="nextPage(5)">
+                    Continue 😂
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- PAGE 5 -->
+        <section class="page" id="page5">
+            <div class="card">
+
+                <div class="emoji">🌷</div>
+
+                <h1>One little thing</h1>
+
+                <p class="special">
+                    I don't need anything from you.
+                </p>
+
+                <p>
+                    Just stay exactly the way you are.
+                </p>
+
+                <p>Keep smiling.</p>
+
+                <p>Keep annoying me.</p>
+
+                <p>Keep being dramatic.</p>
+
+                <p>
+                    Keep being my favourite person. 💗
+                </p>
+
+                <button onclick="nextPage(6)">
+                    One more thing 🥺
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- PAGE 6 -->
+        <section class="page" id="page6">
+            <div class="card">
+
+                <div class="emoji">🥹💗</div>
+
+                <h1>My Suatri</h1>
+
+                <p>
+                    If I could give you one thing...
+                </p>
+
+                <p>
+                    I would give you the ability to see
+                    yourself through my eyes.
+                </p>
+
+                <p>
+                    Then you would finally understand
+                    how special you are to me.
+                </p>
+
+                <p>
+                    Somewhere in this world there is a
+                    good boy who loves you, very, very much.
+                </p>
+
+                <p>
+                    And he's not going anywhere.
+                </p>
+
+                <p class="signature">
+                    Made with love by your good boy ♡
+                </p>
+
+                <button onclick="nextPage(7)">
+                    Last one 🎀
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- PAGE 7 -->
+        <section class="page" id="page7">
+            <div class="card final-card">
+
+                <div class="emoji big">🎀🥺</div>
+
+                <h1>Hehe got youuu</h1>
+
+                <p class="final">
+                    Now smile.
+                </p>
+
+                <p class="final">
+                    Yes, I'm serious.
+                </p>
+
+                <p class="final">
+                    I know you smiled. 😌💗
+                </p>
+
+                <p class="final">
+                    That's all.
+                </p>
+
+                <p class="final">
+                    Go be cute now. 🫶
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
